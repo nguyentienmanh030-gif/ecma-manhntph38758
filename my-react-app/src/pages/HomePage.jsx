@@ -1,6 +1,7 @@
 import Header from '../compoments/Header'
 import Footer from '../compoments/Footer'
 import TourCard from '../compoments/TourCard'
+import Slideshow from '../compoments/Slideshow';
 
 function App() {
   const name = "✈️ TOUR MANAGEMENT SYSTEM";
@@ -26,9 +27,17 @@ function App() {
     },
   ];
 
+  const images = [
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600",
+    "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600",
+    // "https://images.unsplash.com/photo-1505067216369-2b2c62f2ceb4",
+    "https://images.unsplash.com/photo-1541417904950-b855846fe074?w=1600",
+  ];
+
   return (
-     <div className="min-h-screen flex flex-col justify-between">
+    <div className="min-h-screen flex flex-col justify-between">
       <Header />
+      <Slideshow images={images} interval={4000} />
       <main>
         <h4 className="text-3xl font-bold text-blue-600 text-center my-4">
           Khám phá sản phẩm ECMA-WD20306
@@ -41,9 +50,9 @@ function App() {
         </p>
         <div className="grid grid-cols-3 gap-8 my-4 max-w-6xl mx-auto">
           {tours.map(tour => (
-            <TourCard key={tour.id} title={tour.title} image={tour.image}/>
+            <TourCard key={tour.id} title={tour.title} image={tour.image} />
           ))}
-          
+
         </div>
       </main>
 
