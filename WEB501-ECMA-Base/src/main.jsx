@@ -13,6 +13,7 @@ import DashboardPage from './pages/Dashboard.jsx';
 import LoginPage from './pages/Login.jsx';
 import AddPage from './pages/Add.jsx';
 import ListPage from './pages/List.jsx';
+import EditPage from './pages/Edit.jsx';
 import RegisterPage from './pages/Register.jsx';
 
 const router = createBrowserRouter([
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: "register", element: <RegisterPage /> },
       { path: "add", element: <AddPage /> },
       { path: "list", element: <ListPage /> },
+      { path: "edit/:id", element: <EditPage /> }
     ],
   },
 ]);
