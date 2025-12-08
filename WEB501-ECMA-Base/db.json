@@ -1,0 +1,56 @@
+{
+  "tours": [
+    {
+      "id": "5",
+      "name": "Sapa 2N1D",
+      "destination": "Sapa",
+      "duration": "2 ngày 1 đêm",
+      "price": 2800000,
+      "image": "https://picsum.photos/400/300?random=5",
+      "description": "Khám phá núi rừng Tây Bắc, bản làng và văn hóa dân tộc đặc sắc",
+      "available": 15
+    },
+    {
+      "id": "6",
+      "name": "Hà Giang 3N2D",
+      "destination": "Hà Giang",
+      "duration": "3 ngày 2 đêm",
+      "price": 3500000,
+      "image": "https://picsum.photos/400/300?random=6",
+      "description": "Hành trình chinh phục cao nguyên đá Đồng Văn và đèo Mã Pí Lèng hùng vĩ",
+      "available": 12
+    },
+    {
+      "id": "7",
+      "name": "Huế – Đà Nẵng – Hội An 5N4D",
+      "destination": "Miền Trung",
+      "duration": "5 ngày 4 đêm",
+      "price": 5200000,
+      "image": "https://picsum.photos/400/300?random=7",
+      "description": "Tour di sản miền Trung với những cảnh đẹp cổ kính và biển xanh thơ mộng",
+      "available": 18
+    }
+  ],
+  "users": [
+    {
+      "email": "email@gmail.com",
+      "password": "$2a$10$X8Rtd3q1ppXdG/v/TauHEuiUxObCj9WRLy0SjsJHjGRCjFtWobf42",
+      "id": 1
+    },
+    {
+      "email": "email1@gmail.com",
+      "password": "$2a$10$l2yd6HeiyfEvZfr.bR3rOOPcbqWhICr6PzG/EoHh/ugjqdz6vZNze",
+      "id": 2
+    },
+    {
+      "email": "abc123@gmail.com",
+      "password": "$2a$10$xa/VfFfBVDK8OUo1v9ykkOmA1PTHEYpU8w3qu51Pl8m7822bfv8Me",
+      "id": 3
+    },
+    {
+      "email": "abcc@gmail.com",
+      "password": "$2a$10$OyE8QlMhcXquFcQEPxgahOOXgoJWSIRGbcb5HtlKU4lU9T6g6LLgO",
+      "id": 4
+    }
+  ]
+}
