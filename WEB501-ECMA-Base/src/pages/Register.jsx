@@ -25,7 +25,6 @@ function RegisterPage() {
       <h1 className="text-2xl font-semibold mb-6">Register mới</h1>
 
       <form className="space-y-6" onSubmit={handleSubmit}>
-        {/* Text input */}
         <div>
           <label htmlFor="text" className="block font-medium mb-1">
             Email
